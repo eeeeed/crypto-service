@@ -72,7 +72,7 @@ functions:
          path: /currency/all
          method: get
     environment:
-      SUPPORTED_SYMBOLS: ETHBTC,BTCUSD,BCNBTC
+      SUPPORTED_SYMBOLS: ETHBTC,BTCUSD
 #      - websocket: $connect
 #      - s3: ${env:BUCKET}
 #      - schedule: rate(10 minutes)
